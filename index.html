@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <title>Chat</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.js"></script>
+        <script src="assets/js/chat.js"></script>
+        <link rel="stylesheet" href="https://use.typekit.net/ntl1nxs.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+    <body>
+        <section class="chat-wrapper">
+            <div class="messages-list-wrapper">
+                <div class="messages-outer-wrapper">
+                    <div class="messages-wrapper"></div>
+                </div>
+            </div>
+            <footer class="message-write-wrapper">
+                <form>
+                    <div class="input-wrapper username">
+                        <input type="text" placeholder="Username" value="Guest" class="username-input" required>
+                    </div>
+                    <div class="message-and-submit-wrapper">
+                        <div class="input-wrapper message">
+                            <input type="text" placeholder="Type here to chat" class="message-input" required>
+                        </div>
+                        <div class="input-wrapper submit">
+                            <input type="submit" class="submit-button" value="">
+                        </div>
+                    </div>
+                </form>
+            </footer>
+        </section>
+    </body>
+</html>
