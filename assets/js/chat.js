@@ -164,9 +164,7 @@ class Chat {
         }
 
         // Add show class to the messages - to add nice appearing animations
-        setTimeout(() => {
-            messageEl.classList.add('show');
-        }, 10);
+        messageEl.classList.add('show');
     }
 }
 

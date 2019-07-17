@@ -88,7 +88,7 @@ body {
     max-width: 90%;
     opacity: 0;
     transform: scale(.3);
-    transition: all .5s;
+    transition: all .5s .05s;
 }
 
 .chat-wrapper .messages-wrapper .message-item.show {
